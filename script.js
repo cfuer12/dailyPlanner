@@ -53,6 +53,7 @@ $(document).ready(function () {
     }
     //make the schedule color coded based on time: gray is past, green is future, and red is present
     //function checkHour needs a little more work to depict the differet colors
+    //was getting help from other clasmates, but no luck
     function checkHour() {
         const currentHour = moment().hours();
         //present hour function
